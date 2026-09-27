@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+
+# Модели (большие файлы)
+*.pth
+*.pt
+*.h5
+*.onnx
+checkpoints/
+SAVED_MODEL_FINAL/
+saved_model_final.zip
+best_model_full.pth
+model_epoch_*.pth
+
+# Данные
+data/
+files.zip
+*.zip
+
+# Результаты
+results/
+*.csv
+metrics_results.txt
+training_curves.png
+predictions.png
+
+# Секреты
+.env
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
