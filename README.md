@@ -61,7 +61,7 @@
 ## Параметры обучения
 
     batch_size      = 4
-    num_epochs      = 8
+    num_epochs      = 50
     learning_rate   = 5e-5
     weight_decay    = 0.01
     optimizer       = AdamW

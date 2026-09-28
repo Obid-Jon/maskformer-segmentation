@@ -45,7 +45,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Устройство: {device}")
 
 batch_size = 4
-num_epochs = 8
+num_epochs = 50
 learning_rate = 5e-5
 im_size = 512
 
